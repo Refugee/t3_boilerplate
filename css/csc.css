@@ -1,0 +1,47 @@
+/*
+div.csc-textpic-above div.csc-textpic-imagewrap,
+div.csc-textpic-below div.csc-textpic-imagewrap,
+div.csc-textpic div.csc-textpic-imagewrap ul li,
+div.csc-textpic div.csc-textpic-imagewrap dl.csc-textpic-image {
+	float: none;
+}
+
+div.csc-textpic .csc-textpic-imagewrap figure,
+div.csc-textpic figure.csc-textpic-imagewrap {
+    display: block;
+}
+*/
+
+a.download {
+	margin-bottom: 5px;
+}
+
+.csc-header h2 {
+	border-bottom: 1px solid #ddd;
+}
+
+.accordion-small {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+.accordion-small i {
+	color: #222;
+}
+
+.accordion-small h4 {
+	cursor: pointer;
+}
+
+.accordion-small h4.open {
+	color: #222;
+}
+
+.accordion-small .inside {
+	padding: 5px 10px;
+	background: #eee;
+}
+
+.content-wrapper .csc-default {
+	margin-bottom: 25px;
+}

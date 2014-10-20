@@ -1,0 +1,102 @@
+.formhandler-ajax-validation-result {
+	display: none !important;
+}
+
+.Tx-Formhandler ::-webkit-input-placeholder {
+	opacity: 0.75;
+}
+
+.Tx-Formhandler :-moz-placeholder { /* Firefox 18- */
+	opacity: 0.75;
+}
+
+.Tx-Formhandler ::-moz-placeholder {  /* Firefox 19+ */
+	opacity: 0.75;
+}
+
+.Tx-Formhandler :-ms-input-placeholder {  
+	opacity: 0.75;
+}
+
+.Tx-Formhandler label {
+	display: none;
+}
+
+.Tx-Formhandler .type-check label {
+	float: left;
+	display: block;
+	font-weight: normal;
+}
+
+.Tx-Formhandler label.visible {
+	display: block;
+	font-weight: normal;
+}
+
+.Tx-Formhandler input[type="text"],
+.Tx-Formhandler textarea,
+.Tx-Formhandler select {
+	width: 100%;
+	background: #eee;
+	color: #222;
+	border-radius: 0;
+	border: 0;
+	padding: 3px 8px;
+	margin: 0 0 15px;
+}
+
+.Tx-Formhandler input[type="checkbox"] {
+	float: left;
+	margin: 5px;
+}
+
+.Tx-Formhandler .checkbox-wrapper {
+	float: left;
+	margin: 5px;
+}
+
+.Tx-Formhandler .checkbox-wrapper label.visible{
+	float: left;
+}
+
+.Tx-Formhandler textarea {
+	min-height: 150px;
+}
+
+.lt-ie10 .Tx-Formhandler label {
+	display: block;
+}
+
+.Tx-Formhandler input[type="submit"] {
+	background: #222;
+	color: #fff;
+	border: 0;
+	border-radius: 0;
+	padding: 5px 10px;
+	margin: 5px 0 0;
+	text-transform: uppercase;
+}
+
+.Tx-Formhandler div[class*="col"] {
+	position: relative;
+}
+
+.Tx-Formhandler .error {
+	color: #f00;
+}
+
+@media screen and (min-width: 992px) {
+	
+	.Tx-Formhandler .error {
+		cursor: pointer;
+		position: absolute;
+		top: -20px;
+		background: #222;
+		display: block;
+		padding: 2px 9px;
+		border-radius: 3px;
+		box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+		color: #fff;
+	}
+
+}

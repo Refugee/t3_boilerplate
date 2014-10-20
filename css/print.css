@@ -1,0 +1,10 @@
+body {
+	font-family: sans-serif;
+	color: #555555;
+	line-height: 1.6em;
+}
+
+.nav-main,
+.nav-main-toggle {
+	display: none;
+}

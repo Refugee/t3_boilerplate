@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Language labels for Contact Form</description>
+	</meta>
+	<data type="array">
+
+		<languageKey index="default" type="array">
+
+			<label index="label_fieldset">Kontakt Formular</label>
+			<label index="name">Name</label>
+			<label index="forename">Vorname</label>
+			<label index="email">E-Mail</label>
+			<label index="phone">Telefon</label>
+			<label index="company">Firma</label>
+			<label index="city">Stadt</label>
+			<label index="country">Land</label>
+			<label index="others">Andere</label>
+			<label index="message-to-us">Ihre Nachricht an uns.</label>
+			<label index="message">Ihre Nachricht</label>
+			<label index="receive-copy">Möchten Sie eine Kopie Ihrer Nachricht als E-Mail?</label>
+			<label index="submit-message">Nachricht senden</label>
+			<label index="submit">Abschicken</label>
+
+			<label index="greetings">Sehr geehrte(r)</label>
+			<label index="email_user_subject">Ihre Anfrage</label>
+			<label index="email_user_text">Wir danken Ihnen bestens für Ihr Interesse und werden uns umgehend mit Ihnen in Verbindung setzten.</label>
+			<label index="email_user_footer">---------------------------------- Diese Nachricht wurde automatisch erzeugt. --------------------------------</label>
+
+			<label index="email_admin_subject">Kontakt Anfrage</label>
+			<label index="email_admin_text">Ein Benutzer hatt das Kontaktformular auf Ihrer Seite ausgefüllt.</label>
+			<label index="email_admin_footer">---------------------------------- Diese Nachricht wurde automatisch erzeugt. --------------------------------</label>
+
+			<label index="error_name_required">Bitte geben Sie Ihren Namen an!</label>
+			<label index="error_forename_required">Bitte geben Sie ihren Vornamen an!</label>
+			<label index="error_email_required">Bitte geben Sie Ihre E-Mail Adresse an!</label>
+			<label index="error_email_email">Bitte geben Sie eine gültige E-Mail Adresse an!</label>
+			<label index="error_phone_required">Bitte geben Sie Ihre Telefonnummer an!</label>
+			<label index="error_company_required">Bitte geben Sie Ihre Firma an!</label>
+			<label index="error_city_required">Bitte geben Sie Ihre Stadt an!</label>
+			<label index="error_message_required">Bitte geben Sie eine Nachricht ein!</label>
+
+    	</languageKey>
+
+		<languageKey index="en" type="array">
+
+			<label index="label_fieldset">Contact Form</label>
+			<label index="name">Name</label>
+			<label index="email">E-Mail</label>
+			<label index="phone">Phone</label>
+			<label index="company">Company</label>
+			<label index="city">City</label>
+			<label index="country">Country</label>
+			<label index="others">Others</label>
+			<label index="message-to-us">Your message to us.</label>
+			<label index="message">Your Message</label>
+			<label index="receive-copy">I want to receive a copy of this request</label>
+			<label index="submit-message">Send message</label>
+			<label index="submit">Send</label>
+
+			<label index="greetings">Dear</label>
+			<label index="email_user_subject">Your contact request</label>
+			<label index="email_user_text">We have received your request via the contact form on your website. We will process your request and get in contact with you soon.</label>
+			<label index="email_user_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+
+			<label index="email_admin_subject">Contact request</label>
+			<label index="email_admin_text">A user filled out the contact form on your website.</label>
+			<label index="email_admin_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+
+			<label index="error_name_required">Please enter your name!</label>
+			<label index="error_forename_required">Please enter your forename!</label>
+			<label index="error_email_required">Please enter your email address!</label>
+			<label index="error_email_email">Please enter a valid email address!</label>
+			<label index="error_phone_required">Please enter your phone number!</label>
+			<label index="error_company_required">Please enter your company name!</label>
+			<label index="error_city_required">Please enter your city!</label>
+			<label index="error_message_required">Please enter a message!</label>
+
+		</languageKey>
+
+	</data>
+</T3locallang>
