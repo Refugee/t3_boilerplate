@@ -19,7 +19,7 @@
 # constants
 
 Modul.projekt_name = t3_boilerplate
-Modul.base_url_domain = boilerplate.rafaelbirkmann.de
+Modul.base_url_domain = yourdomain.com
 Modul.language = de
 Modul.meta_keywords =
 Modul.meta_description =
