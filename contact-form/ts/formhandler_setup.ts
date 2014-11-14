@@ -8,15 +8,15 @@ plugin.Tx_Formhandler.settings.predef.formhandler-basic-contactform {
 	
 	langFile.1 = TEXT
 	#langFile.1.value = fileadmin/t3_boilerplate/contact-form/lang/lang.xml
-	langFile.1.value = fileadmin/{$Modul.projekt_name}/contact-form/lang/lang.xml
+	langFile.1.value = fileadmin/{$Modul.project_name}/contact-form/lang/lang.xml
 
 	templateFile = TEXT
 	#templateFile.value = fileadmin/t3_boilerplate/contact-form/html/contact-form.html
-	templateFile.value = fileadmin/{$Modul.projekt_name}/contact-form/html/contact-form.html
+	templateFile.value = fileadmin/{$Modul.project_name}/contact-form/html/contact-form.html
 
 	masterTemplateFile = TEXT
 	#masterTemplateFile.value = fileadmin/t3_boilerplate/contact-form/html/mastertemplate.html
-	masterTemplateFile.value = fileadmin/{$Modul.projekt_name}/contact-form/html/mastertemplate.html
+	masterTemplateFile.value = fileadmin/{$Modul.project_name}/contact-form/html/mastertemplate.html
 
 	singleErrorTemplate {
 		totalWrap = <div class="error">|</div>

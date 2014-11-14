@@ -1,7 +1,7 @@
 formhandlerExamples.basic.contact-form {
 
 	# cat=Formhandler Examples - Basic - Contact Form/basic/10; type=string; label=Root path: Path where the example was saved to.
-	rootPath = fileadmin/{$Modul.projekt_name}/contact-form
+	rootPath = fileadmin/{$Modul.project_name}/contact-form
 
 	email {
 

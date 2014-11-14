@@ -77,13 +77,13 @@ page {
                 key.override.field = backend_layout
 
                 default = TEXT
-                default.value = fileadmin/{$Modul.projekt_name}/html/default.html
+                default.value = fileadmin/{$Modul.project_name}/html/default.html
 
                 2 = TEXT
-                2.value = fileadmin/{$Modul.projekt_name}/html/subpage.html
+                2.value = fileadmin/{$Modul.project_name}/html/subpage.html
 
                 #4 = TEXT
-                #4.value = fileadmin/{$Modul.projekt_name}/html/template.html
+                #4.value = fileadmin/{$Modul.project_name}/html/template.html
 
             }
     }
@@ -115,25 +115,25 @@ lib.languagemenu {
     }
     30 = TEXT
     30.value =
-    30.wrap =" class="lang-link lang-link-en" title="translate to english"><div class="hidden">translate to english</div><img alt="translate to english" src="fileadmin/{$Modul.projekt_name}/img/layout/lang-link-en.png"></a>
+    30.wrap =" class="lang-link lang-link-en" title="translate to english"><div class="hidden">translate to english</div><img alt="translate to english" src="fileadmin/{$Modul.project_name}/img/layout/lang-link-en.png"></a>
 }
 
 [globalVar = GP:L = 1]
     lib.languagemenu.20.typolink.additionalParams = &L=0
     lib.languagemenu.30.value = 
-    lib.languagemenu.30.wrap =" class="lang-link lang-link-de" title="auf deutsch">|<img alt="auf deutsch" src="fileadmin/templates/kunde/{$Modul.projekt_name}/img/layout/lang-link-de.png"></a>
+    lib.languagemenu.30.wrap =" class="lang-link lang-link-de" title="auf deutsch">|<img alt="auf deutsch" src="fileadmin/templates/kunde/{$Modul.project_name}/img/layout/lang-link-de.png"></a>
 [global]
 
 
 page.includeCSS {
 
-    bootstrap = fileadmin/{$Modul.projekt_name}/css/bootstrap.css
+    bootstrap = fileadmin/{$Modul.project_name}/css/bootstrap.css
     bootstrap.media = screen
 
-    fontawesome = fileadmin/{$Modul.projekt_name}/css/font-awesome.css
+    fontawesome = fileadmin/{$Modul.project_name}/css/font-awesome.css
     fontawesome.media = screen
 
-    flexslider = fileadmin/{$Modul.projekt_name}/css/flexslider.css
+    flexslider = fileadmin/{$Modul.project_name}/css/flexslider.css
     flexslider.media = screen
 
     opensans = http://fonts.googleapis.com/css?family=Open+Sans:400,700
@@ -144,41 +144,41 @@ page.includeCSS {
     #lato.media = screen
     #lato.external = 1
 
-    menu = fileadmin/{$Modul.projekt_name}/css/menu.css
+    menu = fileadmin/{$Modul.project_name}/css/menu.css
     menu.media = screen
 
-    csc = fileadmin/{$Modul.projekt_name}/css/csc.css
+    csc = fileadmin/{$Modul.project_name}/css/csc.css
     csc.media = screen
 
-    txformhandler = fileadmin/{$Modul.projekt_name}/css/ext/tx-formhandler.css
+    txformhandler = fileadmin/{$Modul.project_name}/css/ext/tx-formhandler.css
     txformhandler.media = screen
 
-    screen = fileadmin/{$Modul.projekt_name}/css/screen.css
+    screen = fileadmin/{$Modul.project_name}/css/screen.css
     screen.media = screen
 
-    print = fileadmin/{$Modul.projekt_name}/css/print.css
+    print = fileadmin/{$Modul.project_name}/css/print.css
     print.media = print
 
 }
 
 page.headerData.666 = TEXT
 page.headerData.666.value (
-    <link rel="shortcut icon" href="fileadmin/{$Modul.projekt_name}/favicon.ico" type="image/x-ico; charset=binary" />
+    <link rel="shortcut icon" href="fileadmin/{$Modul.project_name}/favicon.ico" type="image/x-ico; charset=binary" />
 )
 
 page.includeJS {
-    modernizr = fileadmin/{$Modul.projekt_name}/js/modernizr.js
-    respond = fileadmin/{$Modul.projekt_name}/js/respond.js
+    modernizr = fileadmin/{$Modul.project_name}/js/modernizr.js
+    respond = fileadmin/{$Modul.project_name}/js/respond.js
 }
 
 page.includeJSFooterlibs {
-    jquery = fileadmin/{$Modul.projekt_name}/js/jquery.js
+    jquery = fileadmin/{$Modul.project_name}/js/jquery.js
     jquery.forceOnTop = 1
-    flexslider = fileadmin/{$Modul.projekt_name}/js/jquery.flexslider.js
+    flexslider = fileadmin/{$Modul.project_name}/js/jquery.flexslider.js
 }
 
 page.includeJSFooter {
-    custom = fileadmin/{$Modul.projekt_name}/js/custom.js
+    custom = fileadmin/{$Modul.project_name}/js/custom.js
 }
 
 
@@ -193,7 +193,7 @@ page.includeJSFooter {
 lib.logo = TEXT
 lib.logo.value(
     <a href="http://{$Modul.base_url_domain}/" class="logo">
-        <img src="fileadmin/{$Modul.projekt_name}/img/logo.png" alt="Logo">
+        <img src="fileadmin/{$Modul.project_name}/img/logo.png" alt="Logo">
     </a>
 )
 
@@ -371,7 +371,7 @@ plugin.tx_news.settings.list.paginate {
     pagesAfter = 2
 }
 
-plugin.tx_indexedsearch.templateFile = fileadmin/{$Modul.projekt_name}/html/ext/indexed_search.tmpl
+plugin.tx_indexedsearch.templateFile = fileadmin/{$Modul.project_name}/html/ext/indexed_search.tmpl
 plugin.tx_indexedsearch.show.advancedSearchLink = 0
 
 lib.search = COA_INT

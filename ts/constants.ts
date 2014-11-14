@@ -8,14 +8,14 @@ content.defaultHeaderType = 2
 plugin.tx_news {
 
     view {
-        templateRootPath =  fileadmin/{$Modul.projekt_name}/html/ext/news/Templates/
-        partialRootPath =   fileadmin/{$Modul.projekt_name}/html/ext/news/Partials/
-        layoutRootPath =    fileadmin/{$Modul.projekt_name}/html/ext/news/Layouts/
+        templateRootPath =  fileadmin/{$Modul.project_name}/html/ext/news/Templates/
+        partialRootPath =   fileadmin/{$Modul.project_name}/html/ext/news/Partials/
+        layoutRootPath =    fileadmin/{$Modul.project_name}/html/ext/news/Layouts/
     }
 
     settings {
         displayDummyIfNoMedia = 0
-        cssFile = fileadmin/{$Modul.projekt_name}/css/ext/tx-news.css
+        cssFile = fileadmin/{$Modul.project_name}/css/ext/tx-news.css
     }
 
     _LOCAL_LANG {
