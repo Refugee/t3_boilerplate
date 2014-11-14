@@ -1,6 +1,6 @@
 #typo3-boilerplate
 
-A responsive TYPO3-Boilerplate using Bootstrap3.
+Responsive TYPO3-Boilerplate, based on Extbase-Fluid and Bootstrap3.
 
 # install extensions
 
